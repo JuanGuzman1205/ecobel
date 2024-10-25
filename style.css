@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Monserrat";
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9c6644   ;
+    color: #ede0d4;
+    padding: 10px 20px;
+    transition: 0.7s;
+    z-index: 10;
+    
+}
+
+.titulo{
+    margin-left:-590px;
+}
+.tierra{
+    width: 70px;
+    height: auto;
+}
+nav a {
+    font-size: 23px;
+    color: #ede0d4;
+    text-decoration: none;
+    margin-left: 30px;
+}
+h2 {
+    margin-top: 0;
+}
+#seccion1 {
+    position: relative;
+    padding: 20px;
+    height: 600px;
+    background-image: url('otoño.jpg'); /* Cambia esto por la ruta de tu imagen */
+    background-size: cover;
+    background-position:center;
+}
+
+.titulo-seccion {
+    color: #7f5539  ;
+    position: absolute;
+    top: 50%;
+    left: 100px; /* Alineación a la izquierda */
+    transform: translateY(-50%);
+    font-size: 50px; /* Ajusta el tamaño del texto */
+    margin-top: 10px;
+}
+.contenido {
+    position: relative;
+    top: 200px; /* Espacio suficiente para el título */
+    left: 20px; /* Alineación a la izquierda */
+}
+.boton {
+    text-decoration: none;
+    transform: translateY(210%);
+    position: absolute;
+    border: 3px solid #ddb892;
+    margin-top: 80px; /* Espacio entre el título y el botón */
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 30px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición para el hover */
+    font-weight: bold;
+    margin-left: 55px;
+    background-color: transparent;
+    color: #7f5539;
+}
+
+
+.boton:hover {
+    background-color: #e0e0e0; /* Color al pasar el mouse */
+}
+.izquierda{
+    background: #e6ccb2;
+    height: 80vh;
+    width: 50%;
+}
+.derecha{
+    background: url(quienes.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 80vh;
+}
+#seccion2{
+    display: flex;
+    
+}
+#Title2{
+    font-size: 60px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-top: 90px;
+    color: #772f1a;
+}
+#parrafo2{
+    font-size: 19px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.link{
+    border: 3px solid #ddb892 ;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #7f5539 ;
+    transition: background-color 0.3s;
+}
+.link:hover{
+    background-color: #fefae0;
+    cursor: pointer;
+
+}
+.Ecobel{
+    font-size: 55px;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 300px;
+   
+}
+
+#seccion3{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    background-color: #ddb892;
+    height: 600px;
+}
+#mensaje2{
+    height: 200px;
+    width: 1500px;
+    margin-left:90px ;
+    margin-top: 50px;
+    border: none;
+    background-color: #ede0d4  ;
+    opacity: 0.9;
+    color: black;
+    vertical-align: top; /* Alinea verticalmente hacia arriba */
+    text-align: left;
+    font-size: 20px;
+   
+}
+.nombre{
+    margin-left: 89px;
+
+}
+#name{
+    background-color: #ede0d4  ;
+    opacity: 0.9;
+    border: none;
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+    width: 740px;
+}
+#correo{
+    background-color: #ede0d4  ;
+    opacity: 0.9;
+    border: none;
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 30px;
+    width: 745px;
+}
+#txtname{
+    margin-top:15px ;
+    margin-left: 90px;
+    margin-right: 660px;
+    font-size:30px;
+    color: #772f1a;
+}
+#txtemail{
+    margin-top:15px ;
+    font-size:30px;
+    color: #772f1a;
+}
+#contactanos{
+    margin-top: 100px;
+    font-size:30px;
+    color: #772f1a;
+    margin-left: 80px;
+}
+#enviar{
+    border: none;
+    height: 30px;
+    margin-top: 30px;
+    margin-left:90px ;
+    width: 1500px;
+    border-radius: 30px;
+}
+#enviar:hover{
+    background-color: #fefae0;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+
+
+    padding: 10px 20px;
+    margin: 0;
+    height: 60px;
+    background-color: #9c6644;
+}
